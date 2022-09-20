@@ -1,24 +1,18 @@
 
-# Project: Custom linktree(social media links) website
+# Project : Digital Clock
 
-Linktree is a tool that allows you to share multiple links on social media.
+A digital clock is a type of clock that displays the time digitally as opposed to an analogue clock.
 
-- linktree helps you to place all social media links in one place.
-- Easy to use it is user friendly.
-- this website is built by using basic HTML and CSS.
+- Digital time is displayed
+- Even after rebooting your computer you get exact date and time
 
 ## Demo
 
-https://chetanbogali.github.io/Custom-linktree-website/
-
-## Features
-- Mobile Compatibility
-- Responsive
-- Easy to Use
+https://chetanbogali.github.io/Web-Dev-Mini-Projects/Project%201%20-%20Digital%20Clock
 
 
 ## Screenshot
-<img src="https://github.com/chetanbogali/MySocialLinks/blob/main/Screenshots/Screenshot_20220508-164723__01__01.jpg" width="200" height="350" />
+<img src="https://github.com/chetanbogali/Web-Dev-Mini-Projects/blob/main/Project%201%20-%20Digital%20Clock/Screenshot.png" width="600" height="400" />
 
 
 ## 🚀 About Me
