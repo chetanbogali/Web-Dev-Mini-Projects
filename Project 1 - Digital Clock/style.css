@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;    /* horizontally center */
+    flex-direction: column;
+    align-items: center;    /* horizontally center */
+    height: 100vh;
+    justify-content: center;    /* to bring everything center vertically*/
+    background-image: url("https://images.unsplash.com/photo-1609329035931-4aea79e5ba02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    color: white;
+    overflow: hidden;    /* to hide overflow of the page, if it is over and have scrolling bar --> used to decrease the size  */
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(136, 57, 156);
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;    /* to bring everything horizontally */
+    align-items: center;    /* to bring everything vertically*/
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0,0.3);      /*1st: position of horisontal shadow 2nd: vertical shadow, 3rd:  blur radius, 4th: color*/
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;      /* to transfrom text to uppercase */
+    letter-spacing: 2px;
+    background: rgb(95, 13, 95);
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(18, 56, 136);
+}
